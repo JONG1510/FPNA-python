@@ -9,8 +9,8 @@ Context: This dataset contains house sale prices for King County, which includes
 Objective: To build a machine learning model to predict sale prices of houses in King County. <br>
 Approach: Build regression models with machine learning algorithms; use regularization (Ridge), tuning of hyper parameters to improve performance. 
 
-#### Filename: PPT_report.pptx <br>
-Context: Report findings on Factorydata and HousingPricing, includes Exploratory Data Analysis, model evaluation and recommendation.
+#### Filename: PPT_report.md <br>
+Context: Report findings on Factorydata and HousingPricing, includes exploratory Data Analysis, model evaluation and recommendation.
 Objective: To provide conclusion on which model works best to achieve stated objectives.   
 
-<img width="767" height="427" alt="image" src="https://github.com/user-attachments/assets/9d6df9c7-85e5-45cc-8467-49996818687b" />
+
