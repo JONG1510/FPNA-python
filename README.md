@@ -1,5 +1,5 @@
 # FPNA-python
- Filename: Factorydata
+ Filename: Factorydata <br>
  Purpose: Build a machine learning model to predict whether a machine is working or faulty. <br>
  Approach: 
  > 1. Examine features in existing data set and identify critical features used for modelling.
