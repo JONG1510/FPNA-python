@@ -12,3 +12,5 @@ Approach: Build regression models with machine learning algorithms; use regulari
 #### Filename: PPT_report.pptx <br>
 Context: Report findings on Factorydata and HousingPricing, includes Exploratory Data Analysis, model evaluation and recommendation.
 Objective: To provide conclusion on which model works best to achieve stated objectives.   
+
+<img width="767" height="427" alt="image" src="https://github.com/user-attachments/assets/9d6df9c7-85e5-45cc-8467-49996818687b" />
