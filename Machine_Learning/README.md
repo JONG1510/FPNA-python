@@ -1,7 +1,7 @@
 ## Machine Learning Folder
 #### Filename: Factorydata.ipynb <br>
-Context: This is a dataset collected from a manufacturing factory, it contains various information on different machines. 
-Objective: The factory wants to build a machine learning model to predict whether the machine is working properly or faulty.  
+Context: This is a dataset collected from a manufacturing factory, it contains various information on different machines. <br>
+Objective: The factory wants to build a machine learning model to predict whether the machine is working properly or faulty. <br>  
 Approach: Build various classification models with machine learning algorithms; use regularization (Ridge), hyperparameters tuning (GridSearch) and SMOTE to improve performance <br>
 
 #### Filename: HousingPricing.ipynb <br>
