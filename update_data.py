@@ -7,7 +7,7 @@ def update_silver():
     tickers = ["SI=F"]
     
     # Fetch last 30 days of data
-    data = yf.download(tickers, period="1mo", interval="1d")['Close','Volume']
+    data = yf.download(tickers, period="1mo", interval="1d")
     
     # Clean and save
     data.to_csv('data/SI_latest.csv')
