@@ -32,4 +32,8 @@ jobs:
           git config --global user.email "action@github.com"
           git add data/*.csv
           git commit -m "Automated data update: $(date)" || exit 0
+
+          # Pull latest changes to avoid "rejected" error
+          git pull --rebase origin main
+          
           git push
