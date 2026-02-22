@@ -23,6 +23,9 @@ jobs:
       - name: Run update script
         run: python update_data.py
 
+      - name: Run update script
+        run: python update_gold_data.py
+
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Action"
