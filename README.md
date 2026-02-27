@@ -6,8 +6,6 @@ finance-data-pipeline/
 
 │   ├── daily_update.yml
 
-│   └── processed/
-
 │
 ├── Machine_Learning/
 │   ├── extract.py
