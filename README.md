@@ -2,14 +2,14 @@ finance-data-pipeline/
 
 │
 
-├── data/
+├── github/workflows
 
-│   ├── raw/
+│   ├── daily_update.yml
 
 │   └── processed/
 
 │
-├── src/
+├── Machine_Learning/
 │   ├── extract.py
 │   ├── transform.py
 │   ├── load.py
