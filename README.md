@@ -1,8 +1,13 @@
 finance-data-pipeline/
+
 │
+
 ├── data/
+
 │   ├── raw/
+
 │   └── processed/
+
 │
 ├── src/
 │   ├── extract.py
