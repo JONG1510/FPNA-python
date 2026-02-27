@@ -1,7 +1,7 @@
 finance-data-pipeline/
-
 │
-
+│
+│
 ├── github/workflows
 
 │   ├── daily_update.yml
