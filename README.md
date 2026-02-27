@@ -15,8 +15,6 @@ FPNA-Python/
 ```
 ```
 ├── update_data.py
-```
-```
 └── update_data_gold.py
 ```
 
