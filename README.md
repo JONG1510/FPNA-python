@@ -13,5 +13,5 @@ FPNA-Python/
 │   ├── GC_latest.csv
 │   └── SI_latest.csv
 ```
-├── requirements.txt
-└── README.md
+├── update_data.py
+└── update_data_gold.py
