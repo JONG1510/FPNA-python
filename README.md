@@ -1,17 +1,17 @@
 finance-data-pipeline/
+
 │
-│
-│
+
 ├── github/workflows
 
 │   ├── daily_update.yml
 
 │
 ├── Machine_Learning/
-│   ├── extract.py
-│   ├── transform.py
-│   ├── load.py
-│   └── main.py
+│   ├── Factorydata.ipynb
+│   ├── Housepricing.py
+│   ├── PPT_report.md
+│   └── README.md
 │
 ├── notebooks/
 │   └── EDA.ipynb
