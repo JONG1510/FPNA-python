@@ -13,7 +13,7 @@ Welcome to my collection of AI-driven automation projects. These agents are desi
 A friendly virtual assistant designed to help visitors plan their trip to Gardens by the Bay. The bot provides information on ticket prices, attractions, directions, opening hours, and dining options through natural conversation.
 
 * **Platform:** Telegram
-* **URL:** [t.me/Gardenbtb_bot](https://t.me/Gardenbtb_bot)
+* **URL:** [https://web.telegram.org/k/#@Gardenbtb_bot](https://web.telegram.org/k/#@Gardenbtb_bot)
 * **Handle:** @Gardenbtb_bot
 
 ---
