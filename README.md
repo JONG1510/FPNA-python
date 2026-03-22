@@ -4,7 +4,7 @@ FPNA-Python/
 │   └── daily_update.yml (Automated process to download daily prices on trading days)
 |
 ├── AI Agent_Chatbot/
-│   └── README.md (Introduction to AI Agent and Chatbot) 
+│   └── README.md (Build AI Agent for HR Policy on Copilot Studio and Chatbot for Garden by The Bay) 
 |
 ├── Machine_Learning/
 │   ├── Factorydata.ipynb (Performed classification learning algorithms (KNN, SMOTE) with tuned hyperparameters to detect machine faults)
