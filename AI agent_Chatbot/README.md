@@ -23,6 +23,7 @@ A friendly virtual assistant designed to help visitors plan their trip to Garden
 This agent utilizes **Retrieval-Augmented Generation (RAG)** to provide accurate answers based on official HR policy manuals from American University. It is designed to reduce the administrative load on HR departments by automating routine policy inquiries.
 
 * **Tech Stack:** Microsoft Copilot Studio, MS Teams integration.
+* **Agent's Model:** Claude Sonnet 4.5
 * **Deployment:** Microsoft Teams; but agent is not published as the account was on Trial subscription. Kindly refer to images above for POC.  
 
 ---
