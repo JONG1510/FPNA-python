@@ -4,7 +4,7 @@ Welcome to my collection of AI-driven automation projects. These agents are desi
 
 ## 📌 Table of Contents
 * [Gardens by the Bay Bot](#-gardens-by-the-bay-chatbot) - *Customer Service / Tourism*
-* [HR Policy AI Agent](#-hr-policy-ai-agent) - *Corporate HR Automation*
+* [HR Policy AI Agent](#-hr-policy-ai-agent) - *Corporate HR Automation for American University*
 
 ---
 
