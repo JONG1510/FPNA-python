@@ -15,8 +15,8 @@ FPNA-Python/
 ├── data/
 │   ├── GC_latest.csv
 │   └── SI_latest.csv
+|   └── update_data.py
 |
-├── update_data.py
-└── update_data_gold.py
+├── update_data_gold.py
 ```
 
