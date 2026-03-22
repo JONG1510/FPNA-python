@@ -7,7 +7,7 @@ FPNA-Python/
 │   └── README.md (Introduction to AI Agent and Chatbot) 
 |
 ├── Machine_Learning/
-│   ├── Factorydata.ipynb 
+│   ├── Factorydata.ipynb (Performed classification learning algorithms (KNN, SMOTE, Decision) with tuned hyperparameters to detect machine faults)
 │   ├── Housepricing.py (Performed various regression learning algorithms on Kaggle Dataset to predict housing prices in King County USA) 
 │   ├── PPT_report.md 
 │   └── README.md
