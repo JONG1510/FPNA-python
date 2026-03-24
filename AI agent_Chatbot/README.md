@@ -1,6 +1,6 @@
 # 🤖 AI Agent Portfolio
 
-Welcome to my collection of AI-driven automation projects. These agents are designed to bridge the gap between complex data/policies and user-friendly interaction.
+Welcome to my collection of AI-driven automation projects. These agents are designed to bridge the gap between complex policies and user-friendly interaction.
 
 ## 📌 Table of Contents
 * [Gardens by the Bay Bot](#-gardens-by-the-bay-chatbot) - *Customer Service / Tourism*
