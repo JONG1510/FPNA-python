@@ -14,6 +14,6 @@ def update_silver():
     data.to_csv('data/SI_latest.csv')
     print(f"Data updated successfully at {datetime.now()}")
 
-if __name__ == "__main__":
+if __name__ == "__data__":
     update_silver()
   
