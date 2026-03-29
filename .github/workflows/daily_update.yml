@@ -20,8 +20,8 @@ jobs:
       - name: Install dependencies
         run: pip install yfinance pandas
 
-      #- name: Run update script
-      #  run: python update_data.py
+      - name: Run update script
+        run: python data/update_data.py
 
       - name: Run update script
         run: python update_data_gold.py
