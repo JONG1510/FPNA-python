@@ -12,5 +12,5 @@ from statsmodels.graphics.tsaplots import plot_acf
 import statsmodels.api as sm
 import warnings
 
-url = "https://raw.githubusercontent.com/<username>/FPNA/main/data/SI_latest.csv"
+url = "https://raw.githubusercontent.com/JONG1510/FPNA-python/main/data/GC_latest.csv
 df = pd.read_csv(url)
