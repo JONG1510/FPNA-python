@@ -16,7 +16,7 @@ FPNA-Python/
 ├── data/
 │   ├── GC_latest.csv
 │   └── SI_latest.csv
-|   └── update_data.py (Python API script for security download) 
+|   └── update_data.py (Python API script for silver data download) 
 |   └── update_data_gold.py
 |
 └──  
