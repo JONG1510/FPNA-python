@@ -1,5 +1,6 @@
-FPNA-Python/
 ```
+FPNA-Python/
+|
 ├── .github/workflows/
 │   └── daily_update.yml (Automated process to download daily prices on trading days)
 |
