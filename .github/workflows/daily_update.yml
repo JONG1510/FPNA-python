@@ -24,7 +24,7 @@ jobs:
         run: python data/update_data.py
 
       - name: Run update script
-        run: python update_data_gold.py
+        run: python data/update_data_gold.py
 
       - name: Commit and push changes
         run: |
