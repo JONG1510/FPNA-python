@@ -2,7 +2,7 @@ name: Auto-Update Financial Data
 
 on:
   schedule:
-    - cron: '0 6 * * 1-6' # Runs at 00:00 
+    - cron: '0 0 * * 1-6' # Runs at 08:00 SG 
   workflow_dispatch: # Allows you to run it manually for testing
 
 jobs:
