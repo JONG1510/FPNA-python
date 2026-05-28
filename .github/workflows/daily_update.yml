@@ -2,7 +2,7 @@ name: Auto-Update Financial Data
 
 on:
   schedule:
-    - cron: '0 0 * * 1-6' # Runs at 00:00 UTC (08:00 SGT), Monday to Saturday
+    - cron: '0 2 * * 1-6' # Runs at 00:00 UTC (10:00 SGT), Monday to Saturday
   workflow_dispatch: # Allows manual triggers
 
 # CRITICAL: Grant permission to push changes back to the repo
