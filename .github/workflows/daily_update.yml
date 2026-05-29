@@ -9,10 +9,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
+        
+# --- Every time a GitHub Action runs, GitHub spins up a brand-new, clean vm ---
 
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+      - name: Clean working directory and Pull
+        run: |
+          git reset --hard HEAD
+          git clean -fd
+          git pull --rebase origin main
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
@@ -27,7 +39,6 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git pull --rebase origin main
           git add data/*.csv
