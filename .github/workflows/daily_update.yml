@@ -1,7 +1,7 @@
 name: Auto-Update Financial Data
 on:
   schedule:
-    - cron: '0 6 * * 1-6'  # Runs at 14:00 SGT (UTC+8)
+    - cron: '0 1 * * 1-6'  # Runs at 9:00 SGT (UTC+8)
   workflow_dispatch:
 
 jobs:
@@ -10,19 +10,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        
-# --- Every time a GitHub Action runs, GitHub spins up a brand-new, clean vm ---
 
-      - name: Configure Git
-        run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
-
-      - name: Clean working directory and Pull
-        run: |
-          git reset --hard HEAD
-          git clean -fd
-          git pull --rebase origin main
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -31,16 +19,17 @@ jobs:
       - name: Install dependencies
         run: pip install yfinance pandas
 
-      - name: Run update script
+      - name: Update silver data
         run: python data/update_data_silver.py
 
-      - name: Run update script
+      - name: Update gold data
         run: python data/update_data_gold.py
 
       - name: Commit and push changes
         run: |
+          git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git pull --rebase origin main
           git add data/*.csv
-          git commit -m "Automated data update: $(date)" || exit 0
+          git diff --cached --quiet || git commit -m "Automated data update: $(date)"
           git push
