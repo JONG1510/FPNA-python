@@ -10,7 +10,7 @@ def update_silver():
     
     # Fetch last 30 days of data
     # data = yf.download(tickers, period="1mo", interval="1d")['Close'] -- Only fetch Close prices
-    data = yf.download(tickers, start="2025-10-02", end=today, interval="1d")[['Close','Volume']] 
+    data = yf.download(tickers, start="2025-12-01", end=today, interval="1d")[['Close','Volume']] 
     
     # Clean and save
     data.to_csv('data/SI_latest.csv')
