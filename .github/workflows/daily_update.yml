@@ -1,7 +1,7 @@
 name: Auto-Update Financial Data
 on:
   schedule:
-    - cron: '0 1 * * 1-6'  # Runs at 9:00 SGT (UTC+8)
+    - cron: '15 0 * * 1-6'  # Runs at 8:15 SGT (UTC+8)
   workflow_dispatch:
 
 jobs:
