@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints and local environments
+.ipynb_checkpoints/
+.virtualenv/
+.env
+.venv/
+env/
+venv/
+
+# Databricks / Local Data temporary logs
+*.db
+*.csv
+*.xlsx
+.databricks/
